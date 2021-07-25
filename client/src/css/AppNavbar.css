@@ -1,0 +1,22 @@
+header {
+	position: fixed; /* so it won't move when you scroll */
+	width: 100%;
+}
+
+.innerContainer {
+  margin: auto;
+  width: fit-content;
+  padding: 1em;
+}
+
+.button {
+	text-decoration: none; /* removes the default decoration set by the anchor tag */
+	padding: 1em 2em;
+	transition: background-color 0.5s;
+  color: black;
+}
+
+.button:hover {
+	background-color: #E38BDA;
+  color: white;
+}
