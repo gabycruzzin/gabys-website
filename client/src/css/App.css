@@ -1,9 +1,29 @@
 main {
-	font-size: 36px; /* using the RELATIVE UNIT (em) */
 }
 
 .container {
 	padding: 2em; /* 2 x current font size (20px) = 40px padding all around */
 	max-width: 1200px; /* for big/tiny monitors; it will TRY to take up 1200px, but if it can't it'll be reduced */
 	margin: 0 auto; /* centered in page */
+}
+
+h1 {
+  font-family: playfair-display, serif;
+  font-weight: 700;
+  font-style: normal;
+	font-size: 72px;
+}
+
+p {
+	font-family: playfair-display, serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.pLinks {
+	color: black;
+}
+
+.pLinks:hover {
+	color: #E38BDA;
 }
