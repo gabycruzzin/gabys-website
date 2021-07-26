@@ -12,7 +12,8 @@ h1 {
 	font-family: letter-gothic-std, monospace;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 72px;
+	font-size: 5em;
+	line-height: 0;
 }
 
 p {
@@ -27,4 +28,30 @@ p {
 
 .pLinks:hover {
 	color: #E38BDA;
+}
+
+img {
+	width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item-left {
+  flex: 50%;
+	padding: 1em;
+}
+
+.flex-item-right {
+  flex: 50%;
+	padding: 1em;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 1280px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }
