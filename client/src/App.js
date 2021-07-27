@@ -2,7 +2,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import './css/App.css';
 import {AppNavbar} from './components/AppNavbar';
 import {Contact} from './components/Contact';
-import {Career} from './components/Career';
+import {Journey} from './components/Journey';
 import {Interests} from './components/Interests';
 import {Home} from './components/Home';
 
@@ -18,8 +18,8 @@ export default function App() {
             <Route path="/contact">
               <Contact />
             </Route>
-            <Route path="/career">
-              <Career />
+            <Route path="/journey">
+              <Journey />
             </Route>
             <Route path="/interests">
               <Interests />

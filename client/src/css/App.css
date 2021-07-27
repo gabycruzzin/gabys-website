@@ -16,6 +16,13 @@ h1 {
 	line-height: 0;
 }
 
+h2 {
+	font-family: letter-gothic-std, monospace;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 0;
+}
+
 p {
 	font-family: letter-gothic-std, monospace;
 	font-weight: 700;
@@ -27,7 +34,7 @@ p {
 }
 
 .pLinks:hover {
-	color: #E38BDA;
+	color: #FF47CB;
 }
 
 img {
