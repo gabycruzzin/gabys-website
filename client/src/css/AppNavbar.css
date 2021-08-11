@@ -1,15 +1,12 @@
-header {
-	width: 100%;
+.navbar {
+	padding: 0;
 }
 
-.innerContainer {
-  margin: auto;
-  width: fit-content;
-  padding: 1em;
+a {
+	text-decoration: none !important; /* removes the default decoration set by the anchor tag */
 }
 
 .button {
-	text-decoration: none; /* removes the default decoration set by the anchor tag */
 	padding: 1em;
 	transition: background-color 0.5s;
   color: black;
