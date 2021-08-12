@@ -37,6 +37,7 @@ p {
 
 img {
 	width: 100%;
+	border: white 10px solid;
 }
 
 .flex-container {

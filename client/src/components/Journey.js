@@ -18,6 +18,7 @@ export function Journey() {
         <img src={college} alt="college" />
       </div>
     </div>
+    <br />
     <div className="flex-container">
       <div className="flex-item-left">
         <h2>JPMorgan Chase</h2>
