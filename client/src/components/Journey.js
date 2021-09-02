@@ -16,7 +16,7 @@ export function Journey() {
       </div>
       <div className="flex-item-right">
         <img src={college} alt="college" />
-        <p>My friends and I at a football game in August 2012! Go Coogs 🐾</p>
+        <p>My boyfriend and I reppin' the Coogs 🐾</p>
         
         <img src={footballgame} alt="footballgame" />
         <p>Football game at the brand new stadium</p>
@@ -25,14 +25,14 @@ export function Journey() {
     <br />
     <div className="flex-container">
       <div className="flex-item-left">
-        <h2>JPMorgan Chase</h2>
+        <img src={jpmorgan} alt="college" />
+        <p>Me and my fellow JPMorgan summer interns in 2015</p>        
+      </div>
+      <div className="flex-item-right">
+      <h2>JPMorgan Chase</h2>
         <p style={{fontStyle: 'italic'}}>2017 - PRESENT</p>
         <p>After my summer internship, I was offered a full-time position at JPM as a Software Engineer.</p>
         <p>I started off with Java development, but eventually got boring to me. After some time, I inquired about getting Frontend Development tasks at work. It was so much better! Hehe. I think it's safe to say that I found my niche, because you have to use both creative AND puzzle-solving skills. ✨</p>
-      </div>
-      <div className="flex-item-right">
-        <img src={jpmorgan} alt="college" />
-        <p>Me and my fellow JPMorgan summer interns in 2015</p>
       </div>
     </div>
   </>;
