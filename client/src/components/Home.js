@@ -3,9 +3,9 @@ import picture from '../img/profile_pic.jpg';
 
 export function Home() {
   return <>
-    <h1>About Me</h1>
     <div className="flex-container">
       <div className="flex-item-left">
+          <h1>About Me</h1>
           <p>Hi there, I'm Gaby! 🖖</p>
           <p>Born and raised in Houston, TX.</p>
           <p>I graduated with a Bachelor of Science in Computer Science at the <Link to="/journey" className="pLinks">University of Houston</Link>. It was a very challenging four years, but I made it out alive with a useful skillset that would last me the rest of my life.</p>
