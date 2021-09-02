@@ -1,7 +1,5 @@
 # Check out my personal website!
 
-Work in progress :D
-
 https://gabrielacruz.herokuapp.com/
 
 # node-js-getting-started
