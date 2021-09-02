@@ -9,7 +9,7 @@ export function Journey() {
         <h1>Journey</h1>
         <h2>University of Houston</h2>
         <p style={{fontStyle: 'italic'}}>2012 - 2016</p>
-        <p>I was an active member of the <a class="pLinks" href="https://nscs.org/" target="_blank">National Society of Collegiate Scholars</a>, President & Public Relations officer of <a class="pLinks" href="https://csgirls.org/about/" target="_blank">CSGirls</a>.</p>
+        <p>I was an active member of the <a rel="noreferrer" href="https://nscs.org/" target="_blank">National Society of Collegiate Scholars</a>, President & Public Relations officer of <a rel="noreferrer" href="https://csgirls.org/about/" target="_blank">CSGirls</a>.</p>
         <p>I was initially a Math major, almost switched to Computer Engineering, then eventually chose Computer Science as my degree. I'm glad I did, because I enjoy building websites like this one 💻</p>
         <p>A quote that sums up my college experience -</p>
         <p className="quote" style={{fontStyle: 'italic'}}>"Perseverance is the hard work you do AFTER you get tired of doing the hard work you already did."</p>
@@ -17,7 +17,7 @@ export function Journey() {
       <div className="flex-item-right">
         <img src={college} alt="college" />
         <p>My friends and I at a football game in August 2012! Go Coogs 🐾</p>
-
+        
         <img src={footballgame} alt="footballgame" />
         <p>Football game at the brand new stadium</p>
       </div>

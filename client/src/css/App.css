@@ -20,17 +20,14 @@ h2 {
 	font-style: normal;
 }
 
-p {
+p, a {
 	font-family: letter-gothic-std, monospace;
 	font-weight: 700;
 	font-style: normal;
-}
-
-.pLinks {
 	color: black;
 }
 
-.pLinks:hover {
+a:hover {
 	color: #FF47CB;
 }
 
@@ -42,6 +39,17 @@ p {
 img {
 	width: 100%;
 	border-radius: 1em;
+}
+
+.logo {
+	width: 3em;
+	height: 100%;
+	border-radius: 0px;
+}
+
+.flex-container-center {
+	display: flex;
+	justify-content: center;
 }
 
 .flex-container {
