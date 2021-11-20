@@ -26,9 +26,9 @@ export function AppNavbar() {
           <a href="#journey" className="button button-font">
             Journey
           </a>
-          <a href="#interests" className="button button-font">
+          {/* <a href="#interests" className="button button-font">
             Interests
-          </a>
+          </a> */}
           <a href="#contact" className="button button-font">
             Contact
           </a>

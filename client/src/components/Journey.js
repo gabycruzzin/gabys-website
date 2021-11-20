@@ -41,7 +41,7 @@ export function Journey() {
           <p>My boyfriend and I reppin' the Coogs 🐾</p>
 
           <img src={footballgame} alt="footballgame" />
-          <p>Football game at the brand new stadium</p>
+          <p>Football game at U of H's brand new stadium</p>
         </div>
       </div>
       <br />
@@ -54,11 +54,11 @@ export function Journey() {
             JPM as a Software Engineer.
           </p>
           <p>
-            I started off with Java development, but eventually got boring to
-            me. After some time, I inquired about getting Frontend Development
-            tasks at work. It was so much better! Hehe. I think it's safe to say
-            that I found my niche, because you have to use both creative AND
-            puzzle-solving skills. ✨
+            I started my career with Java development. After some time, I asked
+            for more Frontend Development work - and I loved it! I think it's
+            safe to say that I found my niche, because you have to use your
+            communication skills, creativity, and problem-solving skills to
+            create a good user experience. ✨
           </p>
         </div>
         <div className="flex-item-right">

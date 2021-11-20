@@ -20,9 +20,9 @@ export default function App() {
           <div id="journey">
             <Journey />
           </div>
-          <div id="interests">
+          {/* <div id="interests">
             <Interests />
-          </div>
+          </div> */}
           <div id="contact">
             <Contact />
           </div>
