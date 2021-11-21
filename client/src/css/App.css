@@ -76,15 +76,15 @@ img {
   }
 }
 
-::-webkit-scrollbar-track {
-  border: 1px solid black;
-  background-color: white;
-}
-
 ::-webkit-scrollbar {
   width: 10px;
 }
 
+::-webkit-scrollbar-track {
+  border: 1px solid black;
+  background: white;
+}
+
 ::-webkit-scrollbar-thumb {
-  background-color: black;
+  background: black;
 }
