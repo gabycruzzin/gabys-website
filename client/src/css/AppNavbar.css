@@ -1,24 +1,24 @@
 .navbar {
-	padding: 0;
+  padding: 0;
 }
 
 a {
-	text-decoration: none !important; /* removes the default decoration set by the anchor tag */
+  text-decoration: none !important; /* removes the default decoration set by the anchor tag */
 }
 
 .button {
-	padding: 1em;
-	transition: background-color 0.5s;
+  padding: 1em;
+  transition: background-color 0.5s;
   color: black;
 }
 
 .button:hover {
-	background-color: #FF47CB;
+  background-color: #e33a3b;
   color: white;
 }
 
 .button-font {
-	font-family: letter-gothic-std, monospace;
-	font-weight: 700;
-	font-style: normal;
+  font-family: letter-gothic-std, monospace;
+  font-weight: 700;
+  font-style: normal;
 }
