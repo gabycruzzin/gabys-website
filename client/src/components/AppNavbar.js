@@ -2,7 +2,11 @@ import "../css/AppNavbar.css";
 
 export function AppNavbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a className="logo" href="#">
+        GC
+      </a>
+
       <button
         className="navbar-toggler"
         type="button"
@@ -14,6 +18,7 @@ export function AppNavbar() {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
+
       <div
         className="collapse navbar-collapse"
         id="navbarNavAltMarkup"
