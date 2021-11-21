@@ -3,7 +3,7 @@ import "../css/AppNavbar.css";
 export function AppNavbar() {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <a className="logo" href="#">
+      <a className="button-font logo" href="#">
         GC
       </a>
 
